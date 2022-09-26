@@ -15,36 +15,6 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
-      "locked": {
-        "lastModified": 1664107978,
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "72783a2d0dbbf030bff1537873dd5b85b3fb332f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nixos",
-        "ref": "nixos-22.05",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    "nixpkgs_3": {
-      "locked": {
-        "lastModified": 1664107978,
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "72783a2d0dbbf030bff1537873dd5b85b3fb332f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nixos",
-        "ref": "nixos-22.05",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
@@ -54,136 +24,64 @@
         "test4": "test4"
       }
     },
-    "test": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1664210882,
-        "narHash": "sha256-gAilw4ij5Jl2qa5AtT+eUZGo2cluoupk7YcjW+1T/Yw=",
-        "ref": "refs/heads/main",
-        "rev": "1a5a77166880e095673af20f83d8f5011897415b",
-        "revCount": 5,
-        "type": "git",
-        "url": "https://gist.github.com/lheckemann/d41381539e860b456d5595b67e0d60a2"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://gist.github.com/lheckemann/d41381539e860b456d5595b67e0d60a2"
-      }
-    },
     "test1": {
-      "flake": false,
       "locked": {
-        "lastModified": 1664211014,
-        "narHash": "sha256-oHejB0uwTNbjUGMCtHO4j9nxt+0JF0Q8930SDHGwJf8=",
+        "lastModified": 1664213492,
+        "narHash": "sha256-qXOBI00veVlHmxFLWnOq11BltndH7nzvLsRC4Nnak0M=",
         "ref": "refs/heads/main",
-        "rev": "0ed83e6f5157f6896cfd44b21ba842f5827b30f6",
-        "revCount": 1,
+        "rev": "ff263c811d94366af9456a2946e3bc9ea9f4895f",
+        "revCount": 3,
         "type": "git",
-        "url": "https://github.com/lheckemann/test"
+        "url": "https://github.com/lheckemann-dump/fetcher-issues-b.git"
       },
       "original": {
         "type": "git",
-        "url": "https://github.com/lheckemann/test"
+        "url": "https://github.com/lheckemann-dump/fetcher-issues-b.git"
       }
     },
     "test2": {
-      "inputs": {
-        "nixpkgs": "nixpkgs_2",
-        "test": "test",
-        "test2": "test2_2"
-      },
+      "flake": false,
       "locked": {
-        "lastModified": 1664211014,
-        "narHash": "sha256-oHejB0uwTNbjUGMCtHO4j9nxt+0JF0Q8930SDHGwJf8=",
+        "lastModified": 1664213492,
+        "narHash": "sha256-qXOBI00veVlHmxFLWnOq11BltndH7nzvLsRC4Nnak0M=",
         "ref": "refs/heads/main",
-        "rev": "0ed83e6f5157f6896cfd44b21ba842f5827b30f6",
-        "revCount": 1,
+        "rev": "ff263c811d94366af9456a2946e3bc9ea9f4895f",
+        "revCount": 3,
         "type": "git",
-        "url": "https://github.com/lheckemann/test"
+        "url": "https://github.com/lheckemann-dump/fetcher-issues-b.git"
       },
       "original": {
         "type": "git",
-        "url": "https://github.com/lheckemann/test"
-      }
-    },
-    "test2_2": {
-      "locked": {
-        "lastModified": 1664210882,
-        "narHash": "sha256-gAilw4ij5Jl2qa5AtT+eUZGo2cluoupk7YcjW+1T/Yw=",
-        "ref": "refs/heads/main",
-        "rev": "1a5a77166880e095673af20f83d8f5011897415b",
-        "revCount": 5,
-        "type": "git",
-        "url": "https://gist.github.com/lheckemann/d41381539e860b456d5595b67e0d60a2"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://gist.github.com/lheckemann/d41381539e860b456d5595b67e0d60a2"
-      }
-    },
-    "test2_3": {
-      "locked": {
-        "lastModified": 1664210882,
-        "narHash": "sha256-gAilw4ij5Jl2qa5AtT+eUZGo2cluoupk7YcjW+1T/Yw=",
-        "ref": "refs/heads/main",
-        "rev": "1a5a77166880e095673af20f83d8f5011897415b",
-        "revCount": 5,
-        "type": "git",
-        "url": "https://gist.github.com/lheckemann/d41381539e860b456d5595b67e0d60a2"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://gist.github.com/lheckemann/d41381539e860b456d5595b67e0d60a2"
+        "url": "https://github.com/lheckemann-dump/fetcher-issues-b.git"
       }
     },
     "test3": {
-      "inputs": {
-        "nixpkgs": "nixpkgs_3",
-        "test": "test_2",
-        "test2": "test2_3"
-      },
       "locked": {
-        "lastModified": 1664211014,
-        "owner": "lheckemann",
-        "repo": "test",
-        "rev": "0ed83e6f5157f6896cfd44b21ba842f5827b30f6",
+        "lastModified": 1664213492,
+        "owner": "lheckemann-dump",
+        "repo": "fetcher-issues-b",
+        "rev": "ff263c811d94366af9456a2946e3bc9ea9f4895f",
         "type": "github"
       },
       "original": {
-        "owner": "lheckemann",
-        "repo": "test",
+        "owner": "lheckemann-dump",
+        "repo": "fetcher-issues-b",
         "type": "github"
       }
     },
     "test4": {
       "flake": false,
       "locked": {
-        "lastModified": 1664211014,
-        "owner": "lheckemann",
-        "repo": "test",
-        "rev": "0ed83e6f5157f6896cfd44b21ba842f5827b30f6",
+        "lastModified": 1664213492,
+        "owner": "lheckemann-dump",
+        "repo": "fetcher-issues-b",
+        "rev": "ff263c811d94366af9456a2946e3bc9ea9f4895f",
         "type": "github"
       },
       "original": {
-        "owner": "lheckemann",
-        "repo": "test",
+        "owner": "lheckemann-dump",
+        "repo": "fetcher-issues-b",
         "type": "github"
-      }
-    },
-    "test_2": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1664210882,
-        "narHash": "sha256-gAilw4ij5Jl2qa5AtT+eUZGo2cluoupk7YcjW+1T/Yw=",
-        "ref": "refs/heads/main",
-        "rev": "1a5a77166880e095673af20f83d8f5011897415b",
-        "revCount": 5,
-        "type": "git",
-        "url": "https://gist.github.com/lheckemann/d41381539e860b456d5595b67e0d60a2"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://gist.github.com/lheckemann/d41381539e860b456d5595b67e0d60a2"
       }
     }
   },
